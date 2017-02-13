@@ -1,0 +1,147 @@
+*, *:before, *after {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: tomato;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: 600; 
+    color: #FFF;
+}
+
+.h2-white {
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.h2-yellow {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9e42e; 
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
+
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    color: #FFF;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+
+h6 {
+    font-size: 9px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
+}
+
+ul {
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
+}
+
+.yellow-button {
+    font-size: 14px;
+    font-weight: 800;
+    color: #033048;
+    background-color: #f9e42e;
+    border: solid;
+    border-radius: 5px;
+    border-color: #f9e42e;
+    padding: 5px 32px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.yellow-button:hover {
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #033048;
+    border-color:#033048;
+    color: #FFF;
+}
+
+.blue-button {
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFF;
+    background-color: #033048;
+    border: solid;
+    border-radius: 5px;
+    border-color: #033048;
+    padding: 8px 40px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.blue-button:hover {
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #f9e42e;
+    border-color: #f9e42e;
+    color: #033048;
+}
+
+
+/*Trying to resize the social icons*/
+
+.icon {
+    height: 1%;
+    width: 1%;
+}
+
+header {
+    height: 700px;
+    background: url(../images/header.jpg) no-repeat top center #131e27;
+    padding-top: 32px;
+}
+
+.quote {
+    background: url(../images/testimonial.jpg) no-repeat top center #071324;
+    padding: 70px 0 70px;
+    color: #FFF;
+
+}
+
+
+
+
+
+
