@@ -25,6 +25,7 @@
 body {
     font-family: 'Open Sans';
     background-color: #F0EFEF;
+    text-decoration: none;
 }
 
 h1 {
@@ -36,9 +37,16 @@ h1 {
 }
 
 .h2-white {
-    font-size: 24px;
+    font-size: 60px;
     font-weight: 800;
     color: #FFF;
+}
+
+.h2-white-blog {
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFF;
+    float: left;
 }
 
 .h2-yellow {
@@ -68,7 +76,7 @@ h5 {
 }
 
 h6 {
-    font-size: 9px;
+    font-size: 24px;
     font-weight: 600;
     color: #FFF;
 }
@@ -79,7 +87,7 @@ p {
     color: #606161;
 }
 
-ul {
+.list-benefits {
     font-size: 13px;
     font-weight: 300;
     color: #606161;
@@ -115,6 +123,9 @@ ul {
     margin: 0 auto;
 }
 
+.blue-button:hover {
+    color: #F9E42E;
+}
 
 .icon {
     height: 30px;
@@ -141,7 +152,7 @@ header {
     margin: 40px
 }
 
-aside {
+.yellow-box {
     background-color: #F9E42E;
     padding: 30px;
     text-align: center
@@ -152,3 +163,134 @@ footer {
     background-color: #121212;
     padding: 50px 0 40px;
 }
+
+footer h6 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.navbar-header {
+    font-weight: 600;
+    background-color: #033048;
+    padding: 25px 90px;
+    overflow: hidden;
+}
+
+.navbar-header nav {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9E42E;
+    list-style: none;
+    display: inline-block;    
+    float:right
+}
+
+    /*Couldn't get the nav list to centre in the header so used padding-top to align it*/
+.navbar-header nav ul li {
+    display: inline-block;
+    float: left;
+    padding-top: 40px;
+    margin: 0 0 0 40px;
+    font-size: 24px;
+    position: relative;
+}
+
+.posts {
+  width: 700px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.sidebar {
+    width: 240px;
+    display: inline-block;
+    float: right;
+}
+
+.readmore {
+    color: #033048;
+    text-align: right;
+    margin-top: 30px;
+}
+.readmore a {
+  color: #043049;
+  font-weight: 600;
+}
+
+    /*Couldn't get the rest of the paragraph to sit around the 'L'
+    Althought I think what i have looks better :D */
+.post p:first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.post p {
+    font-size: 24px;
+    font-weight: 300px
+}
+
+.post h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.readmore h6 {
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+.sidebar h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+    /*Couldn't work out how to remove the list indentation so that the list aligns left.
+    Also, for some reason 'How tos' was not sitting on its own line */
+.sidebar ul li {
+    color: #033048;
+    font-size: 24px;
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #033048;
+}
+
+.sidebar span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.line-seperator {
+    height: 1px;
+    background-color: #033048;
+}
+
+.main {
+    margin-bottom: 150px; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
